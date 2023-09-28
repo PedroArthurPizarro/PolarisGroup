@@ -1,0 +1,491 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.meu-botao {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 212px;
+    left: 6.8%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: 0.5s;
+    height: 130px;
+  }
+  
+  .meu-botao:hover {
+    background-color: aliceblue;
+    border-radius: 20%;
+    position: absolute;
+  }
+
+header {
+    position: relative;
+    display: flex;
+    height: 380px;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+main {
+    position: relative;
+    margin-top: -10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.logo {
+    padding-top: 35px;
+}
+
+
+/* NAVBAR */
+.navbarTop {
+    width: max-content;
+    padding-left: 250px;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9b3;
+}
+
+.navbarTop_Links {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbarTop_Links_Ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.navbarTop_Links_Ul li {
+    margin-right: 25px;
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a {
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navbarTop_Links_Ul img {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.navbarBottom {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
+.searchbar {
+    display: flex;
+    background-color: #d9d9d940;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding-left: 15px;
+
+}
+
+.searchbar input {
+    background-color: #d9d9d900;
+    border: none;
+    margin-left: 15px;
+    width: 575px;
+}
+
+.searchbar img {
+    max-width: 17px;
+    min-width: 17px;
+}
+
+.menuIcon {
+    margin-left: 30px;
+}
+
+
+/* SECTION */
+.content {
+    padding: 2px;
+}
+
+.content_Title {
+    background-color: #2CEF28;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.content_Texts {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.content_Text {
+    margin-top: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #2CEF28;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+}
+
+.footer1 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer_title {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.footer_link {
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+}
+
+footer a:hover {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.footer_socials {
+    margin-left: 100px;
+}
+
+.footer_socials p {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.footer_socials_icons {
+    margin-right: 15px;
+}
+
+.footer_socials_icon {
+    margin-top: 15px;
+    display: flex;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.footer_logo {
+    margin-left: 400px;
+    margin-top: -25px;
+}
+
+.footer_logo img {
+    width: 150px;
+    height: 165px;
+}
+
+.footer2 {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    display: none;
+    top: 202px;
+    left: 6.8%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  
+  }
+  
+  input[type="checkbox"]:checked~nav {
+    transform: translateX(800px);
+    z-index: 2;
+    transition: all .5s;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 100px;
+  }
+  
+  a {
+    display: block;
+  }
+  
+  
+  nav {
+    position:absolute;
+    width: 750px;
+    height: 490px;
+    left: -840px;
+    transition: .5s;
+    z-index: 2;
+    background-color: #f1f1f1;
+    padding: 10px;
+    top: 230px;
+    overflow-y: auto;
+  }
+  
+  .User{
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    z-index: 3;
+  }
+  
+  .Pginicialbt {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Pginicialho:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .Pginicialho{
+    position: absolute;
+    top: 189px;
+    left: 16px;
+    z-index: 3;
+
+  }
+  
+  .Planosbt {
+    position: absolute;
+    top: 270px;
+    left: 16.5px;
+    z-index: 3;
+  }
+  
+  .Planosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Planosho {
+    position: absolute;
+    top: 270px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  
+  .Agendamentosbt {
+    position: absolute;
+    top: 353px;
+    left: 16.4px;
+    z-index: 3;
+  }
+  
+  .Agendamentosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Agendamentosho {
+    position: absolute;
+    top: 349px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Médicosbt {
+    position: absolute;
+    top: 437px;
+    left: 16.4px;
+    z-index: 3;
+  }
+  
+  .Médicosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Médicoho {
+    position: absolute;
+    top: 435px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  
+  .Consultasbt {
+    position: absolute;
+    top: 517px;
+    left: 16.2px;
+    z-index: 3;
+  }
+  
+  .Consultasbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Consultasho {
+    position: absolute;
+    top: 517px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Pagamentosbt {
+    position: absolute;
+    top: 608px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Pagamentosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Pagamentosho {
+    position: absolute;
+    top: 608px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Configbt {
+    position: absolute;
+    top: 690px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  
+  .Configbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Configuraçõesho {
+    position: absolute;
+    top: 690px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Suportebt {
+    position: absolute;
+    top: 775px;
+    left: 16px;
+    z-index: 3;
+    opacity: 0%;
+  }
+  
+  .Suportebt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Suporteho {
+    position: absolute;
+    top: 775px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Sairbt {
+    position: absolute;
+    top: 962px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Sairbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Sairho {
+    position: absolute;
+    top: 952px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Sobrebt {
+    position: absolute;
+    top: 877px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Sobrebt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Sobreho {
+    position: absolute;
+    top: 867px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Voltarmenu {
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    z-index: 4;
+    cursor: pointer;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Greenside</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo2.png">
+    <script src="./login.js"></script>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="left">
+            <div>
+                <img src="./assets/logoMain.png" alt="img" class="left_header">
+            </div>
+            <img src="./assets/Girl at her laptop with a mug of coffee.png" alt="img" class="left_img">
+        </div>
+        <div class="right">
+            <div class="content">
+                <div style="text-align: center;">
+                    <p class="right_title">Bem Vindo de Volta!</p>
+                    <p class="right_subtitle">Faça login e entre na sua conta</p>
+                </div>
+                <form action="" autocomplete="on" class="right_form" onsubmit="return validarLogin(event)" id="form">
+                    <section class="right_form_section">
+                        <label for="usuarioInput" class="label">Email ou CPF:</label><br>
+                        <input type="text" id="usuarioInput" name="usuarioInput" placeholder="Email/CPF" class="input"
+                            required><br>
+                    </section>
+                    <section class="right_form_section">
+                        <label for="senhaInput" class="label">Senha:</label><br>
+                        <input type="password" id="senhaInput" name="senhaInput" placeholder="Senha" class="input"
+                            required><br>
+                        <span class="right_form_span_text"><a href="https://flexboxfroggy.com/">
+                                <p>Esqueceu sua senha?</p>
+                            </a></span>
+                    </section>
+                    <input type="submit" value="ENTRAR" class="btn">
+                </form>
+                <div style="text-align: center;">
+                    <p class="right_text">Ainda não tem uma conta?</p>
+                    <span class="right_text"><a href="./cadastro.html">
+                            <p>Cadastre-se</p>
+                        </a></span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

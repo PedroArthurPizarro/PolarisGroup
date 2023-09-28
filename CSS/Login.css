@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Fundolog {
+  position: absolute;
+  width: 105%;
+  height: 100%;
+}
+
+.senha {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 350px;
+  left: 40%;
+  border: none;
+  background: none;
+  border-radius: 0%;
+  stroke: none;
+  cursor: pointer;
+}
+
+.usuario {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 200px;
+  left: 38.5%;
+  border: none;
+  background: none;
+  border-radius: 0%;
+  stroke: none;
+  cursor: pointer;
+}
+
+.Voltarmenu {
+  position: relative;
+  top: -100px;
+  left: 100px;
+  cursor: pointer;
+}

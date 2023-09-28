@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro - Greenside</title>
+        <link rel="icon" type="image/x-icon" href="./assets/logo2.png">
+        <link rel="stylesheet" href="./styles/cadastro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="left">
+                <div>
+                    <img src="./assets/logoMain.png" alt="img" class="left_header">
+                </div>
+                <img src="./assets/Remote work.png" alt="img" class="left_img">
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div style="text-align: center;">
+                        <p class="right_title">Bem Vindo à Greenside!</p>
+                        <p class="right_subtitle">Crie sua conta e comece a usar nossos serviços</p>
+                    </div>
+                    <form action="" autocomplete="on" class="right_form">
+                        <section class="right_form_section">
+                            <label for="nome" class="label">Nome:</label><br>
+                            <input type="text" id="nome" name="nome" placeholder="Nome" class="input" required><br>
+                        </section>
+                        <section class="right_form_section">
+                            <label for="sobrenome" class="label">Sobrenome:</label><br>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" class="input" required><br>
+                        </section>
+                        <section class="right_form_section">
+                            <label for="cpf" class="label">CPF:</label><br>
+                            <input type="text" id="cpf" name="cpf" placeholder="CPF" class="input" required><br>
+                        </section>
+                        <section class="right_form_section">
+                            <label for="senha" class="label">Senha:</label><br>
+                            <input type="password" id="senha" name="senha" placeholder="Senha" class="input" required><br>
+                        </section>
+                        <section class="right_form_section">
+                            <label for="confirmarSenha" class="label">Confirmar senha:</label><br>
+                            <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirmar senha" class="input" required><br>
+                        </section>
+                        <span class="right_form_span_btn"><a href="./index.html"><input type="submit" value="CONTINUAR" class="btn"></a></span>
+                    </form>
+                    <div style="text-align: center;">
+                        <p class="right_text">Já tem uma conta?</p>
+                        <span class="right_text"><a href="./login.html"><p>Faça login</p></a></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>

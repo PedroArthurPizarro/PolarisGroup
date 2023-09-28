@@ -1,0 +1,283 @@
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.planos {
+  position: relative;
+    width: 100%;
+    height: 140%;
+  }
+
+  .meu-botao {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 40px;
+    left: 4.8%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: 0.5s;
+    height: 130px;
+  }
+
+  .meu-botao:hover{
+  background-color: aliceblue;
+  border-radius: 20%;
+  position: absolute;
+  }
+  
+  
+  input[type=checkbox] {
+    position: absolute;
+    display: none;
+    top: 202px;
+    left: 6.8%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  
+  }
+  
+  input[type="checkbox"]:checked~nav {
+    transform: translateX(800px);
+    z-index: 2;
+    transition: all .5s;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 100px;
+  }
+  
+  a {
+    display: block;
+  }
+  
+  
+  nav {
+    position:absolute;
+    width: 750px;
+    height: 490px;
+    left: -820px;
+    transition: .5s;
+    z-index: 2;
+    background-color: #f1f1f1;
+    padding: 10px;
+    top: 70px;
+    overflow-y: auto;
+  
+  }
+  
+  .User{
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    z-index: 3;
+  }
+  
+  .Pginicialbt {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Pginicialho:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .Pginicialho{
+    position: absolute;
+    top: 189px;
+    left: 16px;
+    z-index: 3;
+
+  }
+  
+  .Planosbt {
+    position: absolute;
+    top: 270px;
+    left: 16.5px;
+    z-index: 3;
+  }
+  
+  .Planosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Planosho {
+    position: absolute;
+    top: 270px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  
+  .Agendamentosbt {
+    position: absolute;
+    top: 353px;
+    left: 16.4px;
+    z-index: 3;
+  }
+  
+  .Agendamentosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Agendamentosho {
+    position: absolute;
+    top: 349px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Médicosbt {
+    position: absolute;
+    top: 437px;
+    left: 16.4px;
+    z-index: 3;
+  }
+  
+  .Médicosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Médicoho {
+    position: absolute;
+    top: 435px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  
+  .Consultasbt {
+    position: absolute;
+    top: 517px;
+    left: 16.2px;
+    z-index: 3;
+  }
+  
+  .Consultasbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Consultasho {
+    position: absolute;
+    top: 517px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Pagamentosbt {
+    position: absolute;
+    top: 608px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Pagamentosbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Pagamentosho {
+    position: absolute;
+    top: 608px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Configbt {
+    position: absolute;
+    top: 690px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  
+  .Configbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Configuraçõesho {
+    position: absolute;
+    top: 690px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Suportebt {
+    position: absolute;
+    top: 775px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Suportebt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Suporteho {
+    position: absolute;
+    top: 775px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Sairbt {
+    position: absolute;
+    top: 962px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Sairbt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Sairho {
+    position: absolute;
+    top: 952px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Sobrebt {
+    position: absolute;
+    top: 877px;
+    left: 16px;
+    z-index: 3;
+  }
+  
+  .Sobrebt:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .Sobreho {
+    position: absolute;
+    top: 867px;
+    left: 16px;
+    z-index: 2;
+  }
+  
+  .Voltarmenu {
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    z-index: 4;
+    cursor: pointer;
+  }

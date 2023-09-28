@@ -1,0 +1,58 @@
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(162,222,175,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+img {
+    width: 700px;
+}
+
+
+label {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+input {
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+a {
+    font-weight: 500;
+    color: black;
+}
+
+.center{
+    display: flex; 
+    justify-content: center; 
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.box {
+    margin-right: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #2CEF28;
+    color: white;
+    font-weight: bold;
+}

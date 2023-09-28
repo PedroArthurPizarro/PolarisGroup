@@ -1,0 +1,60 @@
+.meu-botao {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 212px;
+  left: 6.8%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: 0.5s;
+  height: 130px;
+}
+
+.meu-botao:hover {
+  background-color: aliceblue;
+  border-radius: 20%;
+  position: absolute;
+}
+
+nav {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  overflow-y: scroll;
+  left: -800;
+}
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(800px);
+  z-index: 2;
+  transition: all .5s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 100px;
+}
+
+a {
+  display: block;
+}
+
+img {
+  width: 100%;
+  border-radius: 0%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a:hover img {
+  transform: scale(1.1);
+}
+
+
+

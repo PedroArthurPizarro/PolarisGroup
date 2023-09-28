@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    margin-bottom: 75px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+main {
+    padding-top: 225px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.logo {
+    padding-top: 35px;
+}
+
+
+/* NAVBAR */
+.navbarTop {
+    width: max-content;
+    padding-left: 250px;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9b3;
+}
+
+.navbarTop_Links {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbarTop_Links_Ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.navbarTop_Links_Ul li {
+    margin-right: 25px;
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a {
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navbarTop_Links_Ul img {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.navbarBottom {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
+.searchbar {
+    display: flex;
+    background-color: #d9d9d940;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding-left: 15px;
+
+}
+
+.searchbar input {
+    background-color: #d9d9d900;
+    border: none;
+    margin-left: 15px;
+    width: 575px;
+}
+
+.searchbar img {
+    max-width: 17px;
+    min-width: 17px;
+}
+
+.menuIcon {
+    margin-left: 30px;
+}
+
+
+/* MAIN */
+main {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+
+/* SECTION */
+.section_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section_subtitle {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* SECTION_SERVICOS */
+.section_servicos {
+    padding-top: 30px;
+}
+
+.section_servicos_content {
+    padding: 50px 200px 25px 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_servicos_content_column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section_servicos_content_column_card {
+    margin-bottom: 25px;
+}
+
+.section_servicos_content_column_card_text {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card_img {
+    width: 125px;
+    height: 125px;   
+}
+
+/*SECTION_ATENDIMENTO*/
+
+
+
+/* FOOTER */
+footer {
+    background-color: #2CEF28;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.footer1 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer_title {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.footer_link {
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+}
+
+footer a:hover {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.footer_socials {
+    margin-left: 100px;
+}
+
+.footer_socials p {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.footer_socials_icons {
+    margin-right: 15px;
+}
+
+.footer_socials_icon {
+    margin-top: 15px;
+    display: flex;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.footer_logo {
+    margin-left: 400px;
+    margin-top: -25px;
+}
+
+.footer_logo img {
+    width: 150px;
+    height: 165px;
+}
+
+.footer2 {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    text-align: center;
+}
